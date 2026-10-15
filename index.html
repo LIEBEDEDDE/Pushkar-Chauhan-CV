@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Pushkar Chauhan | CV</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script>tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','system-ui','sans-serif'],serif:['"Playfair Display"','Georgia','serif']}}}};</script>
+<style type="text/tailwindcss">
+@layer components{
+ .sec{@apply mt-9 first:mt-0}
+ .h2{@apply font-serif text-xs font-bold tracking-[.25em] uppercase text-[color:var(--ac)] flex items-center gap-3 after:content-[''] after:h-px after:flex-1 after:bg-[color:var(--line)]}
+ .chip{@apply inline-flex items-center gap-2 rounded-full border border-[color:var(--line)] bg-[color:var(--soft)] px-3.5 py-1.5 text-sm font-medium text-[color:var(--tx)]}
+ .mu{@apply text-[color:var(--mu)]}
+}
+</style>
+<style>
+:root{--bg:#eeedf0;--card:#fff;--soft:#f6f4f6;--line:#e2dde2;--tx:#1d1a22;--mu:#5f5a68;--ac:#8a1c33}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a0a0d;--card:#141418;--soft:#1c1c22;--line:#2a2a32;--tx:#ececf1;--mu:#9a98a6;--ac:#e0647c}}
+:root[data-theme="dark"]{--bg:#0a0a0d;--card:#141418;--soft:#1c1c22;--line:#2a2a32;--tx:#ececf1;--mu:#9a98a6;--ac:#e0647c}
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{background:var(--bg);color:var(--tx)}
+svg.s{fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+@media print{:root{--bg:#fff;--card:#fff;--soft:#fff;--line:#ccc;--tx:#111;--mu:#444;--ac:#8a1c33}.no-print{display:none!important}.sheet{box-shadow:none!important;border:0!important;margin:0!important;max-width:none!important}*{print-color-adjust:exact}}
+</style>
+</head>
+<body class="font-sans antialiased">
+
+<svg width="0" height="0" class="absolute" aria-hidden="true"><defs>
+<symbol id="mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+<symbol id="pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+<symbol id="music" viewBox="0 0 24 24"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></symbol>
+<symbol id="tool" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.8-3.8a6 6 0 0 1-7.9 7.9l-6.9 6.9a2.1 2.1 0 0 1-3-3l6.9-6.9a6 6 0 0 1 7.9-7.9z"/></symbol>
+<symbol id="moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></symbol>
+<symbol id="trophy" viewBox="0 0 24 24"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6M18 9h1.5a2.5 2.5 0 0 0 0-5H18M4 22h16M10 14.7V17c0 .5-.5 1-1 1.2C7.8 18.8 7 20.2 7 22M14 14.7V17c0 .5.5 1 1 1.2 1.2.6 2 2 2 3.8M18 2H6v7a6 6 0 0 0 12 0z"/></symbol>
+<symbol id="print" viewBox="0 0 24 24"><path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2M6 14h12v8H6z"/></symbol>
+</defs></svg>
+
+<main class="sheet max-w-3xl mx-auto sm:my-10 bg-[color:var(--card)] sm:rounded-2xl sm:border border-[color:var(--line)] shadow-xl shadow-black/5 overflow-hidden">
+
+  <header class="relative px-6 sm:px-12 pt-10 pb-8 border-b-4 border-[color:var(--ac)]">
+    <button onclick="window.print()" class="no-print absolute top-4 right-4 inline-flex items-center gap-1.5 text-xs font-medium rounded-lg border border-[color:var(--line)] px-3 py-1.5 mu hover:text-[color:var(--tx)]"><svg class="s w-4 h-4"><use href="#print"/></svg>Save PDF</button>
+    <h1 class="font-serif text-4xl sm:text-5xl font-bold tracking-tight">Pushkar Chauhan</h1>
+    <p class="mt-2 mu">Class 12 · ICSE · Science (Physics, Chemistry, Mathematics) with Physical Education</p>
+    <div class="mt-5 flex flex-wrap gap-x-6 gap-y-2 text-sm">
+      <span class="inline-flex items-center gap-2"><svg class="s w-4 h-4 text-[color:var(--ac)]"><use href="#mail"/></svg>pushkarchauhan@1909</span>
+      <span class="inline-flex items-center gap-2"><svg class="s w-4 h-4 text-[color:var(--ac)]"><use href="#pin"/></svg>India</span>
+    </div>
+  </header>
+
+  <div class="px-6 sm:px-12 py-9">
+
+    <section class="sec">
+      <h2 class="h2">Profile</h2>
+      <p class="mt-4 leading-relaxed">Class 12 ICSE student studying Physics, Chemistry and Mathematics with Physical Education. Scored 87% in Class 10. Competes in badminton and serves as class monitor. Creative and hands-on, with interests in music, DIY and design.</p>
+    </section>
+
+    <section class="sec">
+      <h2 class="h2">Education</h2>
+      <div class="mt-4 space-y-5">
+        <div>
+          <div class="flex flex-wrap justify-between gap-x-4"><h3 class="font-semibold">Class 12, ICSE</h3><span class="text-sm mu">Ongoing</span></div>
+          <p class="text-sm mu mt-0.5">Physics · Chemistry · Mathematics · Physical Education</p>
+        </div>
+        <div>
+          <div class="flex flex-wrap justify-between gap-x-4"><h3 class="font-semibold">Class 10, ICSE</h3><span class="text-sm font-semibold text-[color:var(--ac)]">87%</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec">
+      <h2 class="h2">Achievements &amp; Leadership</h2>
+      <ul class="mt-4 space-y-3 list-disc pl-5 marker:text-[color:var(--ac)]">
+        <li><span class="font-semibold">Badminton Championship:</span> <span class="mu">competed in a badminton championship.</span></li>
+        <li><span class="font-semibold">Class Monitor:</span> <span class="mu">served as class monitor.</span></li>
+      </ul>
+    </section>
+
+    <section class="sec">
+      <h2 class="h2">Skills</h2>
+      <dl class="mt-4 space-y-3 text-[0.95rem]">
+        <div class="flex flex-wrap gap-x-3"><dt class="font-semibold w-36 shrink-0">Music</dt><dd class="mu">Guitar (beginner level)</dd></div>
+        <div class="flex flex-wrap gap-x-3"><dt class="font-semibold w-36 shrink-0">Leadership</dt><dd class="mu">Class monitor responsibilities</dd></div>
+        <div class="flex flex-wrap gap-x-3"><dt class="font-semibold w-36 shrink-0">Teamwork &amp; discipline</dt><dd class="mu">Competitive badminton</dd></div>
+      </dl>
+    </section>
+
+    <section class="sec">
+      <h2 class="h2">Interests</h2>
+      <div class="mt-4 flex flex-wrap gap-2.5">
+        <span class="chip"><svg class="s w-4 h-4 text-[color:var(--ac)]"><use href="#music"/></svg>Music &amp; guitar</span>
+        <span class="chip"><svg class="s w-4 h-4 text-[color:var(--ac)]"><use href="#tool"/></svg>DIY &amp; crafting</span>
+        <span class="chip"><svg class="s w-4 h-4 text-[color:var(--ac)]"><use href="#moon"/></svg>Gothic style &amp; aesthetics</span>
+        <span class="chip"><svg class="s w-4 h-4 text-[color:var(--ac)]"><use href="#trophy"/></svg>Badminton</span>
+      </div>
+    </section>
+
+  </div>
+</main>
+</body>
+</html>
